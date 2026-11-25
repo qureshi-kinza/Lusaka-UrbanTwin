@@ -31,7 +31,7 @@ The workflow integrates remote sensing, GIS, spatial statistics, database manage
 The project uses a Cloud Optimized GeoTIFF covering the Lusaka study area.
 
 - Building density: Band 1
-- Normalized building height: Band 2, converted to estimated height in metres using the dataset's scaling convention.
+- Estimated building height: Band 2, converted to metres by multiplying the normalized values by 100, as implemented in the notebook.
 - Spatial processing: Python, Rasterio, GeoPandas, and related geospatial libraries.
 
 The source raster is downloaded by the Google Colab notebook and is not included in this repository because of its file size.
@@ -69,7 +69,7 @@ Building intensity is aggregated into a regular neighbourhood grid. The resultin
 
 ### 4. Spatial Hotspot Analysis
 
-Spatial clustering is examined using Queen contiguity spatial weights and Local Moran's I analysis, with 999 permutations and Benjamini–Hochberg false-discovery-rate correction.
+Spatial clustering is examined using Getis-Ord Gi* analysis with Queen contiguity spatial weights, 999 permutations, and Benjamini–Hochberg false-discovery-rate correction.
 
 This identifies statistically significant high-value clusters, low-value clusters, and non-significant locations.
 
@@ -97,34 +97,27 @@ An interactive web visualization presents building morphology, neighbourhood int
 | Non-significant locations | 1,561 |
 | Spatial permutations | 999 |
 
-**Key spatial finding:** 152 of the 154 identified hotspots (98.7%) occur in the Very High VUI category, indicating a strong spatial concentration of high-intensity urban areas.
+Key finding: 152 of the 154 significant hotspots (98.7%) occur within the Very High neighbourhood-intensity category, demonstrating a strong spatial concentration of high VUI values.
 
-## Repository Structure
+## Project Visualizations
 
-```text
-Lusaka-UrbanTwin/
-│
-├── index.html
-├── GeoTwin_Lusaka_3D_Visualization.html
-├── GeoTwin_Lusaka_Zambia.ipynb
-│
-├── data/
-│   ├── Lusaka_Neighbourhood_Intensity.gpkg
-│   └── Lusaka_VUI_Hotspot_Analysis.gpkg
-│
-├── results/
-│   ├── Lusaka_Building_Morphology_Statistics.csv
-│   ├── Lusaka_Neighbourhood_Intensity_Statistics.csv
-│   ├── Lusaka_VUI_Hotspot_Statistics.csv
-│   ├── Lusaka_Hotspot_Intensity_CrossTab_Statistics.csv
-│   └── GeoTwin_Lusaka_Statistical_Results.csv
-│
-└── visualizations/
-    ├── Lusaka_Building_Morphology_Map.png
-    ├── Lusaka_Neighbourhood_Building_Intensity.png
-    ├── Lusaka_VUI_Hotspot_Map.png
-    └── GeoTwin_Lusaka_Three_Maps.png
-```
+### 1. Building Morphology
+![Lusaka Building Morphology](visualizations/Lusaka_Building_Morphology_Map.png)
+
+### 2. Neighbourhood Building Intensity
+![Lusaka Neighbourhood Building Intensity](visualizations/Lusaka_Neighbourhood_Building_Intensity.png)
+
+### 3. Vertical Urban Intensity Hotspots
+![Lusaka VUI Hotspot Analysis](visualizations/Lusaka_VUI_Hotspot_Map.png)
+
+### 4. Integrated Spatial Analysis
+![GeoTwin Lusaka Integrated Maps](visualizations/GeoTwin_Lusaka_Three_Maps.png)
+
+## Project Data & Outputs
+
+- **GeoPackages:** Neighbourhood intensity and VUI hotspot spatial datasets are available in the `data/` folder.
+- **Statistical Results:** Five CSV files containing morphology, neighbourhood intensity, hotspot, and cross-tabulation statistics are available in the `results/` folder.
+- **Google Colab Notebook:** The complete processing workflow is available in `GeoTwin_Lusaka_Zambia.ipynb`.
 
 ## Technology Stack
 
