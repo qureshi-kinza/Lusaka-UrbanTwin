@@ -102,16 +102,16 @@ Key finding: 152 of the 154 significant hotspots (98.7%) occur within the Very H
 ## Project Visualizations
 
 ### 1. Building Morphology
-![Lusaka Building Morphology](visualizations/Lusaka_Building_Morphology_Map.png)
+![Lusaka Building Morphology](Visualizations/Lusaka_Building_Morphology_Map.png)
 
 ### 2. Neighbourhood Building Intensity
-![Lusaka Neighbourhood Building Intensity](visualizations/Lusaka_Neighbourhood_Building_Intensity.png)
+![Lusaka Neighbourhood Building Intensity](Visualizations/Lusaka_Neighbourhood_Building_Intensity.png)
 
 ### 3. Vertical Urban Intensity Hotspots
-![Lusaka VUI Hotspot Analysis](visualizations/Lusaka_VUI_Hotspot_Map.png)
+![Lusaka VUI Hotspot Analysis](Visualizations/Lusaka_VUI_Hotspot_Map.png)
 
 ### 4. Integrated Spatial Analysis
-![GeoTwin Lusaka Integrated Maps](visualizations/GeoTwin_Lusaka_Three_Maps.png)
+![GeoTwin Lusaka Integrated Maps](Visualizations/GeoTwin_Lusaka_Three_Maps.png)
 
 ## Project Data & Outputs
 
