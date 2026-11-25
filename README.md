@@ -1,4 +1,5 @@
 # GeoTwin Lusaka: Building Intelligence & Urban Spatial Analytics
+(https://doi.org/10.5281/zenodo.24539914)
 
 An integrated geospatial project combining building-density and height data, neighbourhood-level spatial analysis, PostgreSQL/PostGIS, and interactive 3D-ready visualization to explore Lusaka, Zambia.
 
