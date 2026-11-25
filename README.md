@@ -136,7 +136,7 @@ Key finding: 152 of the 154 significant hotspots (98.7%) occur within the Very H
 
 - **GIS & Remote Sensing:** Rasterio, GeoPandas, Shapely
 - **Spatial Database:** PostgreSQL, PostGIS, SQLAlchemy
-- **Spatial Statistics:** PySAL / ESDA, spatial weights, Local Moran's I
+- **Spatial Statistics:** PySAL / ESDA, spatial weights, Getis-Ord Gi
 - **Data Analysis:** Python, NumPy, Pandas
 - **Visualization:** Matplotlib, Plotly, HTML, JavaScript
 - **Environment:** Google Colab
