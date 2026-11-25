@@ -113,6 +113,25 @@ Key finding: 152 of the 154 significant hotspots (98.7%) occur within the Very H
 ### 4. Integrated Spatial Analysis
 ![GeoTwin Lusaka Integrated Maps](Visualizations/GeoTwin_Lusaka_Three_Maps.png)
 
+## Statistical Results (CSV)
+
+| Result | File |
+|---|---|
+| Building Morphology Statistics | [View CSV](Results/Lusaka_Building_Morphology_Statistics.csv) |
+| Neighbourhood Intensity Statistics | [View CSV](Results/Lusaka_Neighbourhood_Intensity_Statistics.csv) |
+| VUI Hotspot Statistics | [View CSV](Results/Lusaka_VUI_Hotspot_Statistics.csv) |
+| Hotspot–Intensity Cross-tabulation | [View CSV](Results/Lusaka_Hotspot_Intensity_CrossTab_Statistics.csv) |
+| Integrated Statistical Results | [View CSV](Results/GeoTwin_Lusaka_Statistical_Results.csv) |
+
+## Spatial Data
+
+- [Neighbourhood Intensity GeoPackage](Data/Lusaka_Neighbourhood_Intensity.gpkg)
+- [VUI Hotspot Analysis GeoPackage](Data/Lusaka_VUI_Hotspot_Analysis.gpkg)
+
+## Google Colab Notebook
+
+[Open the complete GeoTwin Lusaka workflow](GeoTwin_Lusaka_Zambia.ipynb)
+
 ## Project Data & Outputs
 
 - **GeoPackages:** Neighbourhood intensity and VUI hotspot spatial datasets are available in the `data/` folder.
