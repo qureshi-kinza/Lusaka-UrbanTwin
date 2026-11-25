@@ -3,6 +3,18 @@ https://doi.org/10.5281/zenodo.24539914
 
 An integrated geospatial project combining building-density and height data, neighbourhood-level spatial analysis, PostgreSQL/PostGIS, and interactive 3D-ready visualization to explore Lusaka, Zambia.
 
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-orange?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![PostGIS](https://img.shields.io/badge/PostGIS-Spatial%20Database-008BB9)](https://postgis.net/)
+[![GeoPandas](https://img.shields.io/badge/GeoPandas-Spatial%20Analysis-139C5A)](https://geopandas.org/)
+[![Getis--Ord Gi*](https://img.shields.io/badge/Spatial%20Statistics-Getis--Ord%20Gi*-purple)](https://pysal.org/esda/)
+[![Data](https://img.shields.io/badge/Data-Microsoft%20Building%20Density%20%26%20Height-lightgrey)](https://github.com/microsoft)
+[![Visualization](https://img.shields.io/badge/Visualization-Interactive%203D--Ready-blueviolet)](#project-visualizations)
+[![License](https://img.shields.io/badge/License-See%20Repository-lightgrey)](#)
+
+
 ## Live Project
 
 **[Open the Interactive GeoTwin Lusaka Visualization](https://qureshi-kinza.github.io/Lusaka-UrbanTwin/GeoTwin_Lusaka_3D_Visualization.html)**
