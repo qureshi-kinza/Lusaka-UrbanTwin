@@ -1,0 +1,6 @@
+intensity_class,total_cells,hotspots,coldspots,not_significant,hotspot_percentage,coldspot_percentage
+Very Low,404,0,218,185,0.0,53.96
+Low,404,0,78,326,0.0,19.31
+Moderate,404,0,8,396,0.0,1.98
+High,404,2,0,402,0.5,0.0
+Very High,404,152,0,252,37.62,0.0

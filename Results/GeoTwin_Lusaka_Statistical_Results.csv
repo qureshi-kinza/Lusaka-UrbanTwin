@@ -1,0 +1,17 @@
+Indicator,Value,Unit
+Valid raster cells,1309564.0,cells
+Building-containing cells,378847.0,cells
+Building coverage,28.93,%
+Mean density (all cells),0.0507,fraction
+Mean density (building cells),0.1753,fraction
+Median density (building cells),0.1379,fraction
+Maximum density,0.9668,fraction
+Mean height (building cells),2.5479,metres
+Median height (building cells),2.4,metres
+Maximum height,36.1816,metres
+Mean VUI (all cells),0.147,index
+Mean VUI (building cells),0.5077,index
+Median VUI (building cells),0.3309,index
+90th percentile VUI,1.0025,index
+95th percentile VUI,1.2927,index
+Maximum VUI,20.6172,index
