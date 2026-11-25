@@ -139,7 +139,7 @@ Key finding: 152 of the 154 significant hotspots (98.7%) occur within the Very H
 - **Spatial Statistics:** PySAL / ESDA, spatial weights, Local Moran's I
 - **Data Analysis:** Python, NumPy, Pandas
 - **Visualization:** Matplotlib, Plotly, HTML, JavaScript
-- **Environment:** Google Colab, GitHub Pages
+- **Environment:** Google Colab
 
 ## Reproducibility
 
