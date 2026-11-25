@@ -132,12 +132,6 @@ Key finding: 152 of the 154 significant hotspots (98.7%) occur within the Very H
 
 [Open the complete GeoTwin Lusaka workflow](GeoTwin_Lusaka_Zambia.ipynb)
 
-## Project Data & Outputs
-
-- **GeoPackages:** Neighbourhood intensity and VUI hotspot spatial datasets are available in the `data/` folder.
-- **Statistical Results:** Five CSV files containing morphology, neighbourhood intensity, hotspot, and cross-tabulation statistics are available in the `results/` folder.
-- **Google Colab Notebook:** The complete processing workflow is available in `GeoTwin_Lusaka_Zambia.ipynb`.
-
 ## Technology Stack
 
 - **GIS & Remote Sensing:** Rasterio, GeoPandas, Shapely
@@ -167,7 +161,7 @@ PostgreSQL/PostGIS setup is included in the notebook workflow.
 
 ## Author
 
-**Qureshi Kinza **  
+Qureshi Kinza  
 ---
 
 *GeoTwin Lusaka demonstrates an integrated geospatial workflow for building intelligence, neighbourhood-scale spatial analytics, and interactive urban visualization.*
