@@ -17,7 +17,8 @@ An integrated geospatial project combining building-density and height data, nei
 
 ## Live Project
 
-🌐 **[Open the Interactive GeoTwin Lusaka Visualization] [Explore GeoTwin Lusaka](https://qureshi-kinza.github.io/Lusaka-UrbanTwin/)**
+🌐 **[Open the Interactive GeoTwin Lusaka Visualization] (https://qureshi-kinza.github.io/Lusaka-UrbanTwin/)**
+
 
 ## Project Overview
 
